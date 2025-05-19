@@ -1,0 +1,2 @@
+fastapi
+uvicorn[standard] # uvicorn with standard dependencies like websockets
