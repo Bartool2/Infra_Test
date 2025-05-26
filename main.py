@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Test. FastAPI app is running on GCP!"}
+    return {"message": "Dzialamy z Infra na GCP!!!"}
 
 @app.get("/items/{item_id}")
 async def read_item(item_id: int, q: str | None = None):
